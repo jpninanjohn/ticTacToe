@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
+
+<body>
+<div id="symbols">
+
+  Whats Your Symbol??
+  <br /> <br />
+  <input type="radio" id="x" name="sym">X
+  <input type="radio" id="o" name="sym">O
+  
+  <input type="button" value="Change Symbol" id="symChange">
+  
+</div>
+  
+  <div id="score">
+    Player: <span id="playerScores"></span>
+    Computer: <span id="compScores"></span>
+  </div>
+  
+
+<div id="game">
+
+  <table border="true">
+  
+  <tr id="firstRow">
+  <td id="0" class="box"></td>
+  <td id="1" class="box"></td>
+  <td id="2" class="box"></td>
+  </tr>
+  
+  <tr id="firstRow">
+  <td id="3" class="box"></td>
+  <td id="4" class="box"></td>
+  <td id="5" class="box"></td>
+  </tr>
+  
+  <tr id="firstRow">
+  <td id="6" class="box"></td>
+  <td id="7" class="box"></td>
+  <td id="8" class="box"></td>
+  </tr>
+  
+<table>
+  <div id="level">
+  <input type="radio" checked="true" id="easy" name="level">Easy<br>
+  <input type="radio"  id="difficult" name="level">Difficult
+  </div>
+</div>
+<input type="button" value="Reset Board" id="resetBoard"> 
+<input type="button" value="Reset Scores" id="scoreReset">    
+</body>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>

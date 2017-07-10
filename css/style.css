@@ -1,0 +1,85 @@
+body{
+  
+  text-align:center;
+  background: grey;
+  
+}
+
+#score{
+  
+  width:1370px;
+  margin-top:15px;
+  font-family: 'Tangerine', serif;
+  color: black;
+  font-size: 45px;
+  
+}
+
+span{
+  
+  margin-right:40px;
+  
+}
+
+#o{
+  
+  margin-left:65px;
+  
+}
+
+#x{
+  
+  margin-left:10px;
+  
+}
+
+#symbols{
+  
+  margin-top:50px;
+  width:150px;
+  text-align:left;
+  margin-left:590px;
+  font-style:italic;
+}
+
+#symChange{
+  
+  margin-top:10px;
+  margin-left:12px;
+  border-radius:5px;
+  
+}
+
+#game{
+  
+  margin-top:25px;
+  margin-left:300px;
+  padding-top:35px;
+  background:radial-gradient(circle, white, black);
+  height:325px;
+  width:750px;
+  border-radius:15px;
+  
+}
+
+table{
+  
+  margin:0 auto;
+  
+}
+
+td{
+  
+  width:70px;
+  height:70px;
+  border: 2px solid black;
+  
+}
+
+.winningCSS{
+  
+  background:red;
+  color: blue;
+  font-style:italics;
+  
+}
